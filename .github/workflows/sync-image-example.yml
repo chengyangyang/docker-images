@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/arm64v8/postgres:14 docker://registry.cn-hangzhou.aliyuncs.com/sxmd/arm64v8-postgres:14
+         skopeo copy docker://docker.io/postgres:14 docker://registry.cn-hangzhou.aliyuncs.com/sxmd/arm64v8-postgres:14  --arch arm64 --os linux
          
     
