@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy  docker://docker.io/keking/kkfileview:latest docker://registry.cn-hangzhou.aliyuncs.com/sxmd/keking/kkfileview:latest
+         skopeo copy  docker://docker.io/keking/kkfileview:latest docker://registry.cn-hangzhou.aliyuncs.com/sxmd/keking-kkfileview:latest
   
 
 
